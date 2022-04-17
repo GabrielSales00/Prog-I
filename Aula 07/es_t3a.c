@@ -4,7 +4,6 @@ tela se ele é par ou ímpar OLHE PRO RESTO*/
 
 int main() {
     int n1,q,r;
-    printf("escreva um valor, rapidamente!\n");
     scanf("%d", &n1);
     q = n1/2;
     r = n1 - 2*q;
