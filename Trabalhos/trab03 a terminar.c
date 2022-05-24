@@ -1,14 +1,22 @@
 #include <stdio.h>
 
-/*int main()
+#define N 10
+
+int main()
 {
-    int x;
+    int x, y, i;
     struct peso
     {
         int knots;
-        int m[x][x];
+        int m[N][N];
     } loc;
-    scanf("%d", x);
-    scanf("")
+    for(i = 0; i < x; i++) //loop de inputs para a matriz
+    {
+        scanf("%d %d %d %d %d", m[i][1], m[i][2], m[i][3], m[i][4], m[i][5]); //input linha por linha
+    }
+
+
+
+
     return 0;
 }
