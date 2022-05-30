@@ -40,7 +40,7 @@ int main()
         printf("->");
         printf("%d", visitados[i]);
     }
-    printf("\n")
+    printf("\n");
 
 
     return 0;
